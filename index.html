@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stop watch</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>CountDown from ?</h3>
+      <div class="input-box">
+        <input
+          class="input-time"
+          id="minutes-input"
+          type="number"
+          placeholder="min"
+        />
+        <input
+          class="input-time"
+          id="seconds-input"
+          type="number"
+          placeholder="sec"
+        />
+      </div>
+      <div class="stop-container">
+        <div class="row counter">
+          <h1>00 : 00</h1>
+        </div>
+        <div class="row button-container">
+          <button class="start-btn" type="button">start</button>
+          <button class="stop-btn" type="button">stop</button>
+        </div>
+        <div class="row">
+          <button class="reset-btn" type="button">reset</button>
+        </div>
+      </div>
+      <div class="theme-toggle">
+        <label>
+          <input type="checkbox" id="dark-toggle" />
+          Dark Mode 🌙
+        </label>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.stop-container {
+  width: 200px;
+  height: 200px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  all: unset;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 100%;
+}
+.start-btn {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.start-btn:hover {
+  transform: scale(1.1);
+  transition: all 0.35s;
+}
+
+.stop-btn {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.stop-btn:hover {
+  transform: scale(1.1);
+  transition: all 0.35s;
+}
+.reset-btn {
+  background-color: darkgray;
+  color: white;
+  cursor: pointer;
+}
+.reset-btn:hover {
+  transform: scale(1.1);
+  transition: all 0.35s;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.input-time {
+  all: unset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 65% 35% 70% 30% / 41% 63% 37% 59%;
+  font-size: 15px;
+  font-weight: bold;
+}
+.theme-toggle {
+  margin-top: 40px;
+}
+
+body.dark {
+  background-color: #1e1e1e;
+  color: #fff;
+}
