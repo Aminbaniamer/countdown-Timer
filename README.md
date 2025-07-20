@@ -15,7 +15,7 @@ Supports:
 ## 📸 Screenshots
 
 ![Timer Screenshot](./Assets/images/CountDown1.PNG)
-![Timer Screenshot](./Assets/images/CountDown2.PNG)
+![Timer Screenshot](./Assets/images/CountDown3.PNG)
 
 ---
 
