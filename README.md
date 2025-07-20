@@ -35,18 +35,6 @@ Supports:
 
 ---
 
-## Folder Structure
-
-├── index.html
-├── style.css
-├── script.js
-└── Assets
-├── voices
-│ └── beep-sound-short-237619.mp3
-└── screenshots
-├── timer-light.png
-└── timer-dark.png
-
 📦 No Dependencies
 This project is built 100% with vanilla:
 
